@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const API_URL = "http://localhost:8000/api";
-const API_URL= "http://50.16.50.105:3000/api";
+const API_URL = "https://gvr-backend-api.onrender.com/api";
+// const API_URL= "http://50.16.50.105:3000/api";
 
 
 export const api = axios.create({
